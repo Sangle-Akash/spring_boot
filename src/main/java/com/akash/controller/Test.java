@@ -13,7 +13,6 @@ public class Test {
 
 
 		
-		EmployeeService empservice = new EmployeeService();
 
 
 		EmployeeService empservice1 = new EmployeeService();
