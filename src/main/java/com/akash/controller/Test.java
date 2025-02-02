@@ -10,6 +10,8 @@ import com.akash.utility.EmployeeUtility;
 public class Test {
 
 	public static void main(String[] args) {
+		
+		EmployeeService empservice = new EmployeeService();
 
 		EmployeeService empservice = new EmployeeService();
 		Scanner sc = new Scanner(System.in);
