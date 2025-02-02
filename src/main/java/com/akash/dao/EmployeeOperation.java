@@ -120,9 +120,9 @@ public class EmployeeOperation {
 		employee = (Employee) query.uniqueResult();
 
 		employee = (Employee) session.createCriteria(Employee.class).add(Restrictions.eq("empId", id)).uniqueResult();
-
-		List<Employee> value=(List<Employee>) session.createCriteria(Employee.class).setProjection(Projections.sum("empSalary"));
-		System.out.println(value.getFirst());
+//
+//		List<Employee> value=(List<Employee>) session.createCriteria(Employee.class).setProjection(Projections.sum("empSalary"));
+//		System.out.println(value.getFirst());
 		return employee;
 
 	}
