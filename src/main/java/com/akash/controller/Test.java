@@ -10,10 +10,13 @@ import com.akash.utility.EmployeeUtility;
 public class Test {
 
 	public static void main(String[] args) {
+
+
 		
 		EmployeeService empservice = new EmployeeService();
 
-		EmployeeService empservice = new EmployeeService();
+
+		EmployeeService empservice1 = new EmployeeService();
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("what do you want to do ??" + " 1 : save " + " 2 : delete" + " 3 : update " + " 4 : get"
